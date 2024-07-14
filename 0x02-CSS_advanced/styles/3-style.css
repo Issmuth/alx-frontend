@@ -7,3 +7,10 @@
     --text-color: var(--color-black);
 }
 
+body, a {
+    color: var(--text-color);
+}
+
+.card-category, .section-tagline{
+    color: var(--color-primary);
+}
