@@ -1,15 +1,11 @@
 body, a {
-    color: #161616;
+    color: var(--text-color);
 }
 
 .visually-hidden {
     display: none;
 }
 
-.card-category {
-    color: #D73953;
-}
-
-.section-tagline {
-    color: #D73953
+.card-category, .section-tagline{
+    color: var(--color-primary);
 }
