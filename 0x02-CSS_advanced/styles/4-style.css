@@ -1,0 +1,17 @@
+:root {
+    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    font-family: var(--font-family-base);
+}
+
+h1 + a, h1 ~ a,
+h2 + a, h2 ~ a,
+h3 + a, h3 ~ a,
+h4 + a, h4 ~ a,
+h5 + a, h5 ~ a,
+h6 + a, h6 ~ a {
+    font-family: var(--font-family-title);
+}
