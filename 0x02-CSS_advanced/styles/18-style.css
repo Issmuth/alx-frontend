@@ -245,7 +245,7 @@ body {
   text-align: center; 
 }
 
-.nav .nav-item {
+.nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -254,7 +254,7 @@ body {
   margin: var(--nav-item-margin);
 }
 
-.nav .nav-link {
+.nav-link {
   color: var(--nav-item-link-hover);
 }
 
